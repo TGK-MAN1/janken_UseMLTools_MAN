@@ -15,12 +15,9 @@
 
 #画像は自分で用意して下さい
 **/images
-**/labels
 **/calibrations
 
 #その他
 *.deb
 janken_UseMLTools_MAN
 static
-
-!**/class_list.txt
