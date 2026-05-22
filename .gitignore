@@ -22,3 +22,5 @@
 *.deb
 janken_UseMLTools_MAN
 static
+
+!**/class_list.txt

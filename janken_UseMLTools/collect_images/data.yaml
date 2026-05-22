@@ -1,5 +1,0 @@
-train: /home/ty21111/test_ML/janken_UseMLTools/collect_images/images/train
-val: /home/ty21111/test_ML/janken_UseMLTools/collect_images/images/val
-
-nc: 3
-names: [rock, scissors, paper]
