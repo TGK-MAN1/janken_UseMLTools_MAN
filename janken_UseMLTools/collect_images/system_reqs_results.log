@@ -1,0 +1,6 @@
+HAILO System requirements check - log
+
+X |  Insufficient RAM: 16 GB of RAM are required, only 15 GB available.
+V |  CPU architecture x86_64 is supported.
+V |  Required avx CPU flag is supported.
+  |  GPU Requirements are not checked- no GPU connected.
