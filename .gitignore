@@ -8,6 +8,8 @@
 **/*.onnx
 **/*.whl
 **/*checkpoints
+**/*.mp4
+**.jpg
 
 #yolo26のみ通す
 **/yolo26*.pt
