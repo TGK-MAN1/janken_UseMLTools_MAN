@@ -14,21 +14,11 @@ import re
 from datetime import datetime
 import shutil
 import threading
-from flask import Flask, render_template
 from pynput import keyboard
 
-app = Flask(__name__)
 latest_image_name = "None"
 save_flag = False
 exit_flag = False
-
-@app.route('/')
-def index():
-    return render_template('index.html', latest_image_name = latest_image_name)
-
-@app.route('/get_latest_name')
-def get_latest_name():
-    return latest_image_name
 
 def on_press(key):
     global save_flag

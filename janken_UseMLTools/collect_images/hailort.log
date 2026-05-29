@@ -1,0 +1,738 @@
+[2026-05-22 14:09:21.784] [2115] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: NONE, multi_process_service: false
+[2026-05-22 14:09:21.817] [2115] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.12.75+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.75-1+rpt1 (2026-03-11) aarch64
+[2026-05-22 14:11:32.030] [2135] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: NONE, multi_process_service: false
+[2026-05-22 14:11:32.052] [2135] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.12.75+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.75-1+rpt1 (2026-03-11) aarch64
+[2026-05-22 14:20:39.600] [2189] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: NONE, multi_process_service: false
+[2026-05-22 14:20:39.622] [2189] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.12.75+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.75-1+rpt1 (2026-03-11) aarch64
+[2026-05-22 14:20:39.652] [2189] [HailoRT] [error] [device.cpp:510] [fw_interact] Operation 59 is not allowed when FW version in not supported. Host supported FW version is 5.1.1
+[2026-05-22 14:20:39.652] [2189] [HailoRT] [error] [control.cpp:3301] [config_context_switch_timestamp] CHECK_SUCCESS failed with status=HAILO_UNSUPPORTED_FW_VERSION(16)
+[2026-05-22 14:20:47.264] [2196] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-22 14:20:47.287] [2196] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.12.75+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.75-1+rpt1 (2026-03-11) aarch64
+[2026-05-22 14:20:47.288] [2196] [HailoRT] [error] [vdevice_hrpc_client.cpp:196] [get_default_streams_interface] Not supported. Did you try calling `create_configure_params` on H10? If so, use InferModel instead
+[2026-05-22 14:20:47.288] [2196] [HailoRT] [error] [vdevice.cpp:91] [create_configure_params] CHECK_SUCCESS failed with status=HAILO_NOT_IMPLEMENTED(7) - Failed to get default streams interface
+[2026-05-22 14:26:33.951] [2225] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-22 14:26:33.972] [2225] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.12.75+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.75-1+rpt1 (2026-03-11) aarch64
+[2026-05-22 14:47:18.577] [2312] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-22 14:47:18.611] [2312] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.12.75+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.75-1+rpt1 (2026-03-11) aarch64
+[2026-05-22 14:49:39.144] [2336] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-22 14:49:39.167] [2336] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.12.75+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.75-1+rpt1 (2026-03-11) aarch64
+[2026-05-22 14:50:28.875] [2346] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-22 14:50:28.896] [2346] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.12.75+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.75-1+rpt1 (2026-03-11) aarch64
+[2026-05-22 14:51:10.164] [2356] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-22 14:51:10.187] [2356] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.12.75+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.75-1+rpt1 (2026-03-11) aarch64
+[2026-05-22 15:00:05.816] [2445] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-22 15:00:05.839] [2445] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.12.75+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.75-1+rpt1 (2026-03-11) aarch64
+[2026-05-22 15:01:42.997] [2460] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.12.75+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.75-1+rpt1 (2026-03-11) aarch64
+[2026-05-22 15:01:42.999] [2460] [HailoRT] [error] [device_hrpc_client.cpp:189] [start_power_measurement] CHECK_SUCCESS failed with status=HAILO_OPEN_FILE_FAILURE(13)
+[2026-05-22 17:41:39.254] [19017] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-22 17:41:39.276] [19017] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.12.75+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.75-1+rpt1 (2026-03-11) aarch64
+[2026-05-22 17:41:39.300] [19017] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-22 17:41:39.300] [19017] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-22 17:41:39.461] [19017] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-22 17:41:39.461] [19017] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-22 17:41:39.461] [19017] [HailoRT] [error] [infer_model.cpp:478] [output] CHECK failed - Model has more than one output!
+[2026-05-22 17:46:57.227] [19079] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-22 17:46:57.249] [19079] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.12.75+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.75-1+rpt1 (2026-03-11) aarch64
+[2026-05-22 17:46:57.272] [19079] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-22 17:46:57.272] [19079] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-22 17:46:57.433] [19079] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-22 17:46:57.433] [19079] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-22 17:49:15.610] [19125] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-22 17:49:15.633] [19125] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.12.75+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.75-1+rpt1 (2026-03-11) aarch64
+[2026-05-22 17:49:15.656] [19125] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-22 17:49:15.656] [19125] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-22 17:49:15.817] [19125] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-22 17:49:15.817] [19125] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-22 17:50:03.515] [19165] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-22 17:50:03.537] [19165] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.12.75+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.75-1+rpt1 (2026-03-11) aarch64
+[2026-05-22 17:50:03.560] [19165] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-22 17:50:03.560] [19165] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-22 17:50:03.721] [19165] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-22 17:50:03.721] [19165] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-22 17:51:31.681] [19207] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-22 17:51:31.704] [19207] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.12.75+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.75-1+rpt1 (2026-03-11) aarch64
+[2026-05-22 17:51:31.727] [19207] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-22 17:51:31.727] [19207] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-22 17:51:31.888] [19207] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-22 17:51:31.888] [19207] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-22 17:51:59.857] [19248] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-22 17:51:59.880] [19248] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.12.75+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.75-1+rpt1 (2026-03-11) aarch64
+[2026-05-22 17:51:59.904] [19248] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-22 17:51:59.904] [19248] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-22 17:52:00.065] [19248] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-22 17:52:00.065] [19248] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-22 17:52:00.066] [19248] [HailoRT] [error] [configured_infer_model_hrpc_client.cpp:521] [validate_output_bindings] CHECK failed - Output buffer size 14400 is different than expected 28800 for output 'yolo26n/conv61'
+[2026-05-22 17:52:00.066] [19248] [HailoRT] [error] [configured_infer_model_hrpc_client.cpp:462] [validate_bindings] CHECK_SUCCESS failed with status=HAILO_INVALID_OPERATION(6)
+[2026-05-22 17:52:00.066] [19248] [HailoRT] [error] [configured_infer_model_hrpc_client.cpp:166] [run_async_impl] CHECK_SUCCESS failed with status=HAILO_INVALID_OPERATION(6)
+[2026-05-22 17:52:00.067] [19248] [HailoRT] [error] [infer_model.cpp:657] [run_async] CHECK_SUCCESS failed with status=HAILO_INVALID_OPERATION(6)
+[2026-05-22 17:53:51.608] [19321] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-22 17:53:51.630] [19321] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.12.75+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.75-1+rpt1 (2026-03-11) aarch64
+[2026-05-22 17:53:51.654] [19321] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-22 17:53:51.654] [19321] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-22 17:53:51.815] [19321] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-22 17:53:51.815] [19321] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-22 17:54:22.084] [19368] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-22 17:54:22.107] [19368] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.12.75+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.75-1+rpt1 (2026-03-11) aarch64
+[2026-05-22 17:54:22.130] [19368] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-22 17:54:22.130] [19368] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-22 17:54:22.292] [19368] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-22 17:54:22.292] [19368] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-22 17:55:51.874] [19411] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-22 17:55:51.897] [19411] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.12.75+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.75-1+rpt1 (2026-03-11) aarch64
+[2026-05-22 17:55:51.920] [19411] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-22 17:55:51.920] [19411] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-22 17:55:52.081] [19411] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-22 17:55:52.081] [19411] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-22 17:56:02.954] [19446] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-22 17:56:02.977] [19446] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.12.75+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.75-1+rpt1 (2026-03-11) aarch64
+[2026-05-22 17:56:03.000] [19446] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-22 17:56:03.000] [19446] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-22 17:56:03.162] [19446] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-22 17:56:03.162] [19446] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-22 17:57:44.497] [19489] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-22 17:57:44.520] [19489] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.12.75+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.75-1+rpt1 (2026-03-11) aarch64
+[2026-05-22 17:57:44.544] [19489] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-22 17:57:44.544] [19489] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-22 17:57:44.705] [19489] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-22 17:57:44.705] [19489] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-22 18:03:02.517] [19546] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-22 18:03:02.539] [19546] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.12.75+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.75-1+rpt1 (2026-03-11) aarch64
+[2026-05-22 18:03:02.563] [19546] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-22 18:03:02.563] [19546] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-22 18:03:02.724] [19546] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-22 18:03:02.724] [19546] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-22 18:05:49.567] [19595] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-22 18:05:49.590] [19595] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.12.75+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.75-1+rpt1 (2026-03-11) aarch64
+[2026-05-22 18:05:49.613] [19595] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-22 18:05:49.613] [19595] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-22 18:05:49.774] [19595] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-22 18:05:49.774] [19595] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 02:03:02.595] [5223] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.12.75+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.75-1+rpt1 (2026-03-11) aarch64
+[2026-05-23 02:06:31.054] [5468] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.12.75+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.75-1+rpt1 (2026-03-11) aarch64
+[2026-05-23 02:06:31.128] [5458] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-23 02:06:31.150] [5458] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.12.75+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.75-1+rpt1 (2026-03-11) aarch64
+[2026-05-23 02:06:31.175] [5458] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 02:06:31.175] [5458] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 02:06:31.176] [5458] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 02:06:31.337] [5458] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 02:06:31.338] [5458] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 02:06:31.338] [5458] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 13:40:12.364] [2279] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.12.75+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.75-1+rpt1 (2026-03-11) aarch64
+[2026-05-23 13:40:12.459] [2269] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-23 13:40:12.492] [2269] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.12.75+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.75-1+rpt1 (2026-03-11) aarch64
+[2026-05-23 13:40:12.565] [2269] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 13:40:12.565] [2269] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 13:40:12.565] [2269] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 13:40:12.741] [2269] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 13:40:12.741] [2269] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 13:40:12.742] [2269] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 13:44:01.645] [2356] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.12.75+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.75-1+rpt1 (2026-03-11) aarch64
+[2026-05-23 13:44:01.711] [2346] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-23 13:44:01.731] [2346] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.12.75+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.75-1+rpt1 (2026-03-11) aarch64
+[2026-05-23 13:44:01.756] [2346] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 13:44:01.756] [2346] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 13:44:01.756] [2346] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 13:44:01.916] [2346] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 13:44:01.916] [2346] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 13:44:01.917] [2346] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 13:54:16.373] [3585] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.12.75+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.75-1+rpt1 (2026-03-11) aarch64
+[2026-05-23 13:54:16.438] [3575] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-23 13:54:16.459] [3575] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.12.75+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.75-1+rpt1 (2026-03-11) aarch64
+[2026-05-23 13:54:16.484] [3575] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 13:54:16.484] [3575] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 13:54:16.484] [3575] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 13:54:16.645] [3575] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 13:54:16.645] [3575] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 13:54:16.646] [3575] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 14:04:02.789] [3727] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.12.75+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.75-1+rpt1 (2026-03-11) aarch64
+[2026-05-23 14:04:02.849] [3717] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-23 14:04:02.871] [3717] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.12.75+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.75-1+rpt1 (2026-03-11) aarch64
+[2026-05-23 14:04:02.897] [3717] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 14:04:02.897] [3717] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 14:04:02.898] [3717] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 14:04:03.059] [3717] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 14:04:03.059] [3717] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 14:04:03.059] [3717] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 14:26:15.928] [2788] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.12.75+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.75-1+rpt1 (2026-03-11) aarch64
+[2026-05-23 14:26:16.003] [2775] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-23 14:26:16.034] [2775] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.12.75+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.75-1+rpt1 (2026-03-11) aarch64
+[2026-05-23 14:26:16.061] [2775] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 14:26:16.061] [2775] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 14:26:16.061] [2775] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 14:26:16.239] [2775] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 14:26:16.239] [2775] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 14:26:16.240] [2775] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 14:32:38.888] [4413] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.12.75+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.75-1+rpt1 (2026-03-11) aarch64
+[2026-05-23 14:32:38.945] [4400] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-23 14:32:38.967] [4400] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.12.75+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.75-1+rpt1 (2026-03-11) aarch64
+[2026-05-23 14:32:38.992] [4400] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 14:32:38.992] [4400] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 14:32:38.992] [4400] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 14:32:39.153] [4400] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 14:32:39.153] [4400] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 14:32:39.154] [4400] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 14:42:33.034] [4691] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.12.75+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.75-1+rpt1 (2026-03-11) aarch64
+[2026-05-23 14:42:33.098] [4678] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-23 14:42:33.119] [4678] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.12.75+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.75-1+rpt1 (2026-03-11) aarch64
+[2026-05-23 14:42:33.143] [4678] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 14:42:33.144] [4678] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 14:42:33.144] [4678] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 14:42:33.305] [4678] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 14:42:33.305] [4678] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 14:42:33.305] [4678] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 14:44:09.037] [4839] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.12.75+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.75-1+rpt1 (2026-03-11) aarch64
+[2026-05-23 14:44:09.098] [4826] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-23 14:44:09.120] [4826] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.12.75+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.75-1+rpt1 (2026-03-11) aarch64
+[2026-05-23 14:44:09.144] [4826] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 14:44:09.144] [4826] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 14:44:09.144] [4826] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 14:44:09.305] [4826] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 14:44:09.305] [4826] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 14:44:09.306] [4826] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 14:49:13.255] [5093] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.12.75+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.75-1+rpt1 (2026-03-11) aarch64
+[2026-05-23 14:49:13.313] [5080] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-23 14:49:13.336] [5080] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.12.75+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.75-1+rpt1 (2026-03-11) aarch64
+[2026-05-23 14:49:13.360] [5080] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 14:49:13.360] [5080] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 14:49:13.360] [5080] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 14:49:13.521] [5080] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 14:49:13.521] [5080] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 14:49:13.522] [5080] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 14:50:36.166] [5208] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.12.75+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.75-1+rpt1 (2026-03-11) aarch64
+[2026-05-23 14:50:36.225] [5195] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-23 14:50:36.247] [5195] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.12.75+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.75-1+rpt1 (2026-03-11) aarch64
+[2026-05-23 14:50:36.272] [5195] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 14:50:36.272] [5195] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 14:50:36.272] [5195] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 14:50:36.433] [5195] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 14:50:36.433] [5195] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 14:50:36.434] [5195] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 14:52:39.917] [5533] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.12.75+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.75-1+rpt1 (2026-03-11) aarch64
+[2026-05-23 14:52:39.977] [5520] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-23 14:52:39.999] [5520] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.12.75+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.75-1+rpt1 (2026-03-11) aarch64
+[2026-05-23 14:52:40.024] [5520] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 14:52:40.024] [5520] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 14:52:40.024] [5520] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 14:52:40.185] [5520] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 14:52:40.185] [5520] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 14:52:40.186] [5520] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 14:52:50.646] [5633] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.12.75+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.75-1+rpt1 (2026-03-11) aarch64
+[2026-05-23 14:52:50.705] [5620] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-23 14:52:50.727] [5620] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.12.75+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.75-1+rpt1 (2026-03-11) aarch64
+[2026-05-23 14:52:50.752] [5620] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 14:52:50.752] [5620] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 14:52:50.752] [5620] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 14:52:50.913] [5620] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 14:52:50.913] [5620] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 14:52:50.914] [5620] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 14:59:28.186] [5826] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.12.75+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.75-1+rpt1 (2026-03-11) aarch64
+[2026-05-23 14:59:28.245] [5813] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-23 14:59:28.267] [5813] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.12.75+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.75-1+rpt1 (2026-03-11) aarch64
+[2026-05-23 14:59:28.292] [5813] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 14:59:28.292] [5813] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 14:59:28.292] [5813] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 14:59:28.453] [5813] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 14:59:28.453] [5813] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 14:59:28.453] [5813] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 15:05:25.694] [2540] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.12.75+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.75-1+rpt1 (2026-03-11) aarch64
+[2026-05-23 15:05:25.781] [2524] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-23 15:05:25.805] [2524] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.12.75+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.75-1+rpt1 (2026-03-11) aarch64
+[2026-05-23 15:05:25.834] [2524] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 15:05:25.834] [2524] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 15:05:25.834] [2524] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 15:05:26.011] [2524] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 15:05:26.011] [2524] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 15:05:26.012] [2524] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 15:07:59.151] [2512] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.12.75+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.75-1+rpt1 (2026-03-11) aarch64
+[2026-05-23 15:07:59.237] [2499] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-23 15:07:59.270] [2499] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.12.75+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.75-1+rpt1 (2026-03-11) aarch64
+[2026-05-23 15:07:59.297] [2499] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 15:07:59.297] [2499] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 15:07:59.297] [2499] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 15:07:59.472] [2499] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 15:07:59.472] [2499] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 15:07:59.473] [2499] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 15:29:07.861] [2732] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.12.75+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.75-1+rpt1 (2026-03-11) aarch64
+[2026-05-23 15:29:07.946] [2719] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-23 15:29:07.978] [2719] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.12.75+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.75-1+rpt1 (2026-03-11) aarch64
+[2026-05-23 15:29:08.005] [2719] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 15:29:08.005] [2719] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 15:29:08.005] [2719] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 15:29:08.183] [2719] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 15:29:08.183] [2719] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 15:29:08.241] [2719] [HailoRT] [error] [configured_infer_model_hrpc_client.cpp:549] [shutdown] CHECK failed - Lost communication with the server. This may happen if VDevice is released while the CIM is in use.
+[2026-05-23 15:30:00.898] [2825] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.12.75+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.75-1+rpt1 (2026-03-11) aarch64
+[2026-05-23 15:30:00.969] [2812] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-23 15:30:00.992] [2812] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.12.75+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.75-1+rpt1 (2026-03-11) aarch64
+[2026-05-23 15:30:01.018] [2812] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 15:30:01.018] [2812] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 15:30:01.018] [2812] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 15:30:01.194] [2812] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 15:30:01.194] [2812] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-23 15:30:01.434] [2812] [HailoRT] [error] [configured_infer_model_hrpc_client.cpp:549] [shutdown] CHECK failed - Lost communication with the server. This may happen if VDevice is released while the CIM is in use.
+[2026-05-26 11:50:58.783] [2088] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-26 11:50:58.814] [2088] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.12.75+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.75-1+rpt1 (2026-03-11) aarch64
+[2026-05-26 11:52:25.118] [2113] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-26 11:52:25.140] [2113] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.12.75+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.75-1+rpt1 (2026-03-11) aarch64
+[2026-05-26 11:53:47.225] [2135] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-26 11:53:47.247] [2135] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.12.75+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.75-1+rpt1 (2026-03-11) aarch64
+[2026-05-26 11:55:02.054] [2155] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-26 11:55:02.076] [2155] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.12.75+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.75-1+rpt1 (2026-03-11) aarch64
+[2026-05-26 11:55:02.149] [2155] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-26 11:55:02.149] [2155] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-26 11:55:02.331] [2155] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-26 11:55:02.331] [2155] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-26 13:55:26.264] [3719] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-26 13:55:26.285] [3719] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.12.75+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.75-1+rpt1 (2026-03-11) aarch64
+[2026-05-26 13:55:51.175] [3732] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-26 13:55:51.196] [3732] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.12.75+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.75-1+rpt1 (2026-03-11) aarch64
+[2026-05-26 13:57:38.083] [3752] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-26 13:57:38.104] [3752] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.12.75+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.75-1+rpt1 (2026-03-11) aarch64
+[2026-05-26 14:07:24.854] [5240] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-26 14:07:24.877] [5240] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.12.75+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.75-1+rpt1 (2026-03-11) aarch64
+[2026-05-26 14:07:24.900] [5240] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-26 14:07:24.900] [5240] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-26 14:07:25.062] [5240] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-26 14:07:25.062] [5240] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-26 14:09:00.674] [5259] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-26 14:09:00.697] [5259] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.12.75+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.75-1+rpt1 (2026-03-11) aarch64
+[2026-05-26 14:09:00.720] [5259] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-26 14:09:00.720] [5259] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-26 14:09:00.882] [5259] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-26 14:09:00.882] [5259] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-27 00:57:43.252] [6155] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-27 00:57:43.286] [6155] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.29+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.29-1+rpt1 (2026-05-12) aarch64
+[2026-05-27 00:57:43.370] [6155] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-27 00:57:43.370] [6155] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-27 00:57:43.546] [6155] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-27 00:57:43.546] [6155] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-27 06:13:41.588] [7334] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-27 06:13:41.622] [7334] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.29+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.29-1+rpt1 (2026-05-12) aarch64
+[2026-05-27 06:13:41.646] [7334] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-27 06:13:41.646] [7334] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-27 06:13:41.807] [7334] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-27 06:13:41.807] [7334] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-27 16:28:51.144] [14550] [HailoRT] [error] [hef.cpp:585] [parse_hef_file] Unsupported hef version 3
+[2026-05-27 16:28:51.145] [14550] [HailoRT] [error] [hef.cpp:1002] [Impl] Failed parsing HEF file
+[2026-05-27 16:28:51.145] [14550] [HailoRT] [error] [hef.cpp:314] [create] Failed creating HEF
+[2026-05-27 16:28:51.145] [14550] [HailoRT] [error] [hef.cpp:170] [create] CHECK_SUCCESS failed with status=HAILO_INVALID_HEF(26)
+[2026-05-27 16:32:03.973] [14586] [HailoRT] [info] [vdevice.cpp:523] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: NONE, multi_process_service: false
+[2026-05-27 16:32:03.984] [14586] [HailoRT] [error] [driver_os_specific.cpp:160] [convert_errno_to_hailo_status] Ioctl HAILO_QUERY_DRIVER_INFO failed due to inappropriate ioctl for device (can happen due to version mismatch or unsupported feature)
+[2026-05-27 16:32:03.984] [14586] [HailoRT] [error] [hailort_driver.cpp:253] [HailoRTDriver] Failed to query driver info with HAILO_DRIVER_INVALID_IOCTL(86)
+[2026-05-27 16:32:03.984] [14586] [HailoRT] [error] [hailort_driver.cpp:183] [create] CHECK_SUCCESS failed with status=HAILO_DRIVER_INVALID_IOCTL(86)
+[2026-05-27 16:32:03.996] [14586] [HailoRT] [error] [hailo_session_internal.cpp:25] [create_client_shared] CHECK_SUCCESS failed with status=HAILO_DRIVER_INVALID_IOCTL(86)
+[2026-05-27 16:32:03.996] [14586] [HailoRT] [error] [client.cpp:70] [connect] CHECK_SUCCESS failed with status=HAILO_DRIVER_INVALID_IOCTL(86)
+[2026-05-27 16:32:03.996] [14586] [HailoRT] [error] [vdevice_hrpc_client.cpp:49] [create] CHECK_SUCCESS failed with status=HAILO_DRIVER_INVALID_IOCTL(86) - Failed to connect to server
+[2026-05-27 16:32:03.996] [14586] [HailoRT] [error] [vdevice.cpp:552] [create] CHECK_SUCCESS failed with status=HAILO_DRIVER_INVALID_IOCTL(86)
+[2026-05-27 16:33:48.615] [14613] [HailoRT] [info] [vdevice.cpp:523] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-27 16:33:48.628] [14613] [HailoRT] [error] [driver_os_specific.cpp:160] [convert_errno_to_hailo_status] Ioctl HAILO_QUERY_DRIVER_INFO failed due to inappropriate ioctl for device (can happen due to version mismatch or unsupported feature)
+[2026-05-27 16:33:48.628] [14613] [HailoRT] [error] [hailort_driver.cpp:253] [HailoRTDriver] Failed to query driver info with HAILO_DRIVER_INVALID_IOCTL(86)
+[2026-05-27 16:33:48.628] [14613] [HailoRT] [error] [hailort_driver.cpp:183] [create] CHECK_SUCCESS failed with status=HAILO_DRIVER_INVALID_IOCTL(86)
+[2026-05-27 16:33:48.640] [14613] [HailoRT] [error] [hailo_session_internal.cpp:25] [create_client_shared] CHECK_SUCCESS failed with status=HAILO_DRIVER_INVALID_IOCTL(86)
+[2026-05-27 16:33:48.640] [14613] [HailoRT] [error] [client.cpp:70] [connect] CHECK_SUCCESS failed with status=HAILO_DRIVER_INVALID_IOCTL(86)
+[2026-05-27 16:33:48.640] [14613] [HailoRT] [error] [vdevice_hrpc_client.cpp:49] [create] CHECK_SUCCESS failed with status=HAILO_DRIVER_INVALID_IOCTL(86) - Failed to connect to server
+[2026-05-27 16:33:48.640] [14613] [HailoRT] [error] [vdevice.cpp:552] [create] CHECK_SUCCESS failed with status=HAILO_DRIVER_INVALID_IOCTL(86)
+[2026-05-27 16:36:17.552] [14639] [HailoRT] [error] [driver_os_specific.cpp:160] [convert_errno_to_hailo_status] Ioctl HAILO_QUERY_DRIVER_INFO failed due to inappropriate ioctl for device (can happen due to version mismatch or unsupported feature)
+[2026-05-27 16:36:17.552] [14639] [HailoRT] [error] [hailort_driver.cpp:253] [HailoRTDriver] Failed to query driver info with HAILO_DRIVER_INVALID_IOCTL(86)
+[2026-05-27 16:36:17.552] [14639] [HailoRT] [error] [hailort_driver.cpp:183] [create] CHECK_SUCCESS failed with status=HAILO_DRIVER_INVALID_IOCTL(86)
+[2026-05-27 16:36:17.564] [14639] [HailoRT] [error] [hailo_session_internal.cpp:25] [create_client_shared] CHECK_SUCCESS failed with status=HAILO_DRIVER_INVALID_IOCTL(86)
+[2026-05-27 16:36:17.564] [14639] [HailoRT] [error] [client.cpp:70] [connect] CHECK_SUCCESS failed with status=HAILO_DRIVER_INVALID_IOCTL(86)
+[2026-05-27 16:36:17.564] [14639] [HailoRT] [error] [pcie_device_hrpc_client.cpp:26] [create] CHECK_SUCCESS failed with status=HAILO_DRIVER_INVALID_IOCTL(86) - Failed to connect to server
+[2026-05-27 16:36:17.564] [14639] [HailoRT] [error] [pcie_device.cpp:84] [create] CHECK_SUCCESS failed with status=HAILO_DRIVER_INVALID_IOCTL(86)
+[2026-05-27 16:36:17.564] [14639] [HailoRT] [error] [device.cpp:128] [create_pcie] CHECK_SUCCESS failed with status=HAILO_DRIVER_INVALID_IOCTL(86)
+[2026-05-27 17:11:00.912] [18370] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-27 17:11:00.936] [18370] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.29+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.29-1+rpt1 (2026-05-12) aarch64
+[2026-05-27 17:11:01.009] [18370] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-27 17:11:01.009] [18370] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-27 17:11:01.186] [18370] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-27 17:11:01.186] [18370] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-27 17:12:18.568] [18407] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-27 17:12:18.592] [18407] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.29+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.29-1+rpt1 (2026-05-12) aarch64
+[2026-05-27 17:12:18.615] [18407] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-27 17:12:18.615] [18407] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-27 17:12:18.776] [18407] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-27 17:12:18.776] [18407] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-27 17:15:21.784] [18540] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-27 17:15:21.807] [18540] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.29+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.29-1+rpt1 (2026-05-12) aarch64
+[2026-05-27 17:15:21.830] [18540] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-27 17:15:21.830] [18540] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-27 17:15:21.991] [18540] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-27 17:15:21.991] [18540] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-27 17:21:35.289] [18660] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-27 17:21:35.311] [18660] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.29+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.29-1+rpt1 (2026-05-12) aarch64
+[2026-05-27 17:21:35.334] [18660] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-27 17:21:35.334] [18660] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-27 17:21:35.496] [18660] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-27 17:21:35.496] [18660] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-27 17:21:50.180] [18698] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-27 17:21:50.203] [18698] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.29+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.29-1+rpt1 (2026-05-12) aarch64
+[2026-05-27 17:21:50.227] [18698] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-27 17:21:50.227] [18698] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-27 17:21:50.388] [18698] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-27 17:21:50.388] [18698] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-27 17:21:50.388] [18698] [HailoRT] [error] [infer_model.cpp:478] [output] CHECK failed - Model has more than one output!
+[2026-05-27 17:26:39.932] [18975] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-27 17:26:39.955] [18975] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.29+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.29-1+rpt1 (2026-05-12) aarch64
+[2026-05-27 17:26:39.979] [18975] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-27 17:26:39.979] [18975] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-27 17:26:40.140] [18975] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-27 17:26:40.140] [18975] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-27 17:39:50.185] [19124] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.29+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.29-1+rpt1 (2026-05-12) aarch64
+[2026-05-27 17:58:16.512] [19254] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-27 17:58:16.538] [19254] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.29+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.29-1+rpt1 (2026-05-12) aarch64
+[2026-05-27 23:05:42.540] [2517] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-27 23:05:42.570] [2517] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.29+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.29-1+rpt1 (2026-05-12) aarch64
+[2026-05-27 23:07:08.163] [2539] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-27 23:07:08.186] [2539] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.29+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.29-1+rpt1 (2026-05-12) aarch64
+[2026-05-27 23:07:08.260] [2539] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-27 23:07:08.260] [2539] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-27 23:07:08.446] [2539] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-27 23:07:08.446] [2539] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-27 23:09:05.198] [2559] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-27 23:09:05.222] [2559] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.29+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.29-1+rpt1 (2026-05-12) aarch64
+[2026-05-27 23:09:05.245] [2559] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-27 23:09:05.245] [2559] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-27 23:09:05.406] [2559] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-27 23:09:05.406] [2559] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-27 23:10:12.082] [2574] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-27 23:10:12.105] [2574] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.29+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.29-1+rpt1 (2026-05-12) aarch64
+[2026-05-27 23:10:12.128] [2574] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-27 23:10:12.128] [2574] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-27 23:10:12.289] [2574] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-27 23:10:12.289] [2574] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-27 23:16:36.514] [2619] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-27 23:16:36.537] [2619] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.29+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.29-1+rpt1 (2026-05-12) aarch64
+[2026-05-27 23:16:36.560] [2619] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-27 23:16:36.560] [2619] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-27 23:16:36.721] [2619] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-27 23:16:36.721] [2619] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-27 23:17:34.715] [2643] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-27 23:17:34.738] [2643] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.29+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.29-1+rpt1 (2026-05-12) aarch64
+[2026-05-27 23:17:34.761] [2643] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-27 23:17:34.761] [2643] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-27 23:17:34.922] [2643] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-27 23:17:34.922] [2643] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-27 23:17:59.078] [2663] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-27 23:17:59.101] [2663] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.29+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.29-1+rpt1 (2026-05-12) aarch64
+[2026-05-27 23:17:59.124] [2663] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-27 23:17:59.124] [2663] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-27 23:17:59.285] [2663] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-27 23:17:59.285] [2663] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-27 23:18:48.830] [2684] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-27 23:18:48.853] [2684] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.29+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.29-1+rpt1 (2026-05-12) aarch64
+[2026-05-27 23:18:48.876] [2684] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-27 23:18:48.876] [2684] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-27 23:18:49.037] [2684] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-27 23:18:49.037] [2684] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-27 23:18:49.387] [2684] [HailoRT] [error] [configured_infer_model_hrpc_client.cpp:521] [validate_output_bindings] CHECK failed - Output buffer size 14400 is different than expected 28800 for output 'yolo26n/conv61'
+[2026-05-27 23:18:49.387] [2684] [HailoRT] [error] [configured_infer_model_hrpc_client.cpp:462] [validate_bindings] CHECK_SUCCESS failed with status=HAILO_INVALID_OPERATION(6)
+[2026-05-27 23:18:49.387] [2684] [HailoRT] [error] [configured_infer_model_hrpc_client.cpp:166] [run_async_impl] CHECK_SUCCESS failed with status=HAILO_INVALID_OPERATION(6)
+[2026-05-27 23:18:49.389] [2684] [HailoRT] [error] [infer_model.cpp:657] [run_async] CHECK_SUCCESS failed with status=HAILO_INVALID_OPERATION(6)
+[2026-05-27 23:23:06.804] [2732] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-27 23:23:06.827] [2732] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.29+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.29-1+rpt1 (2026-05-12) aarch64
+[2026-05-27 23:23:06.850] [2732] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-27 23:23:06.850] [2732] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-27 23:23:07.011] [2732] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-27 23:23:07.011] [2732] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 00:35:39.985] [3239] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-28 00:35:40.008] [3239] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.29+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.29-1+rpt1 (2026-05-12) aarch64
+[2026-05-28 00:35:40.032] [3239] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 00:35:40.032] [3239] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 00:35:40.194] [3239] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 00:35:40.194] [3239] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 01:04:33.532] [3615] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-28 01:04:33.555] [3615] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.29+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.29-1+rpt1 (2026-05-12) aarch64
+[2026-05-28 01:04:33.579] [3615] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 01:04:33.579] [3615] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 01:04:33.740] [3615] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 01:04:33.740] [3615] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 01:10:56.949] [3678] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-28 01:10:56.972] [3678] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.29+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.29-1+rpt1 (2026-05-12) aarch64
+[2026-05-28 01:10:56.996] [3678] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 01:10:56.996] [3678] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 01:10:57.158] [3678] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 01:10:57.158] [3678] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 01:13:29.437] [3721] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-28 01:13:29.460] [3721] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.29+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.29-1+rpt1 (2026-05-12) aarch64
+[2026-05-28 01:13:29.484] [3721] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 01:13:29.484] [3721] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 01:13:29.646] [3721] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 01:13:29.646] [3721] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 13:37:01.209] [5251] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-28 13:37:01.245] [5251] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.29+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.29-1+rpt1 (2026-05-12) aarch64
+[2026-05-28 13:37:01.330] [5251] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 13:37:01.330] [5251] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 13:37:01.507] [5251] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 13:37:01.507] [5251] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 13:37:49.908] [5292] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-28 13:37:49.932] [5292] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.29+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.29-1+rpt1 (2026-05-12) aarch64
+[2026-05-28 13:37:49.955] [5292] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 13:37:49.955] [5292] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 13:37:50.117] [5292] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 13:37:50.117] [5292] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 13:38:28.625] [5312] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-28 13:38:28.658] [5312] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.29+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.29-1+rpt1 (2026-05-12) aarch64
+[2026-05-28 13:38:28.682] [5312] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 13:38:28.682] [5312] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 13:38:28.843] [5312] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 13:38:28.843] [5312] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 13:38:51.012] [5330] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-28 13:38:51.034] [5330] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.29+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.29-1+rpt1 (2026-05-12) aarch64
+[2026-05-28 13:38:51.057] [5330] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 13:38:51.057] [5330] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 13:38:51.219] [5330] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 13:38:51.219] [5330] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 13:39:14.848] [5364] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-28 13:39:14.870] [5364] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.29+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.29-1+rpt1 (2026-05-12) aarch64
+[2026-05-28 13:39:14.894] [5364] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 13:39:14.894] [5364] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 13:39:15.056] [5364] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 13:39:15.056] [5364] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 13:48:39.336] [5429] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-28 13:48:39.359] [5429] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.29+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.29-1+rpt1 (2026-05-12) aarch64
+[2026-05-28 13:48:39.382] [5429] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 13:48:39.382] [5429] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 13:48:39.544] [5429] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 13:48:39.544] [5429] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 13:49:34.128] [5550] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-28 13:49:34.150] [5550] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.29+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.29-1+rpt1 (2026-05-12) aarch64
+[2026-05-28 13:49:34.174] [5550] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 13:49:34.174] [5550] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 13:49:34.335] [5550] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 13:49:34.335] [5550] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 13:53:23.204] [5583] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-28 13:53:23.227] [5583] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.29+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.29-1+rpt1 (2026-05-12) aarch64
+[2026-05-28 13:53:23.250] [5583] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 13:53:23.250] [5583] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 13:53:23.412] [5583] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 13:53:23.412] [5583] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 13:53:35.318] [5600] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-28 13:53:35.340] [5600] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.29+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.29-1+rpt1 (2026-05-12) aarch64
+[2026-05-28 13:53:35.364] [5600] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 13:53:35.364] [5600] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 13:53:35.525] [5600] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 13:53:35.525] [5600] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 13:54:46.666] [5622] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-28 13:54:46.699] [5622] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.29+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.29-1+rpt1 (2026-05-12) aarch64
+[2026-05-28 13:54:46.723] [5622] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 13:54:46.723] [5622] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 13:54:46.885] [5622] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 13:54:46.885] [5622] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 14:01:21.228] [5749] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-28 14:01:21.251] [5749] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.29+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.29-1+rpt1 (2026-05-12) aarch64
+[2026-05-28 14:01:21.274] [5749] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 14:01:21.274] [5749] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 14:01:21.436] [5749] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 14:01:21.436] [5749] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 14:01:40.341] [5772] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-28 14:01:40.363] [5772] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.29+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.29-1+rpt1 (2026-05-12) aarch64
+[2026-05-28 14:01:40.387] [5772] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 14:01:40.387] [5772] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 14:01:40.548] [5772] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 14:01:40.548] [5772] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:15:59.582] [6112] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-28 15:15:59.605] [6112] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.29+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.29-1+rpt1 (2026-05-12) aarch64
+[2026-05-28 15:15:59.628] [6112] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:15:59.628] [6112] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:15:59.789] [6112] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:15:59.789] [6112] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:16:18.735] [6134] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-28 15:16:18.758] [6134] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.29+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.29-1+rpt1 (2026-05-12) aarch64
+[2026-05-28 15:16:18.781] [6134] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:16:18.781] [6134] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:16:18.943] [6134] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:16:18.943] [6134] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:16:47.790] [6159] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-28 15:16:47.812] [6159] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.29+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.29-1+rpt1 (2026-05-12) aarch64
+[2026-05-28 15:16:47.836] [6159] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:16:47.836] [6159] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:16:47.997] [6159] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:16:47.997] [6159] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:19:28.053] [6214] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-28 15:19:28.076] [6214] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.29+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.29-1+rpt1 (2026-05-12) aarch64
+[2026-05-28 15:19:28.099] [6214] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:19:28.099] [6214] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:19:28.261] [6214] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:19:28.261] [6214] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:23:41.635] [6255] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-28 15:23:41.662] [6255] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.29+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.29-1+rpt1 (2026-05-12) aarch64
+[2026-05-28 15:23:41.685] [6255] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:23:41.685] [6255] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:23:41.846] [6255] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:23:41.846] [6255] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:25:33.077] [6284] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-28 15:25:33.098] [6284] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.29+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.29-1+rpt1 (2026-05-12) aarch64
+[2026-05-28 15:25:33.121] [6284] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:25:33.121] [6284] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:25:33.283] [6284] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:25:33.283] [6284] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:29:59.066] [6333] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-28 15:29:59.089] [6333] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.29+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.29-1+rpt1 (2026-05-12) aarch64
+[2026-05-28 15:29:59.112] [6333] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:29:59.112] [6333] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:29:59.274] [6333] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:29:59.274] [6333] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:30:53.982] [6370] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-28 15:30:54.005] [6370] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.29+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.29-1+rpt1 (2026-05-12) aarch64
+[2026-05-28 15:30:54.029] [6370] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:30:54.029] [6370] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:30:54.190] [6370] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:30:54.190] [6370] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:31:41.053] [6405] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-28 15:31:41.076] [6405] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.29+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.29-1+rpt1 (2026-05-12) aarch64
+[2026-05-28 15:31:41.100] [6405] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:31:41.100] [6405] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:31:41.261] [6405] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:31:41.261] [6405] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:32:07.662] [6431] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-28 15:32:07.685] [6431] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.29+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.29-1+rpt1 (2026-05-12) aarch64
+[2026-05-28 15:32:07.708] [6431] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:32:07.708] [6431] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:32:07.870] [6431] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:32:07.870] [6431] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:38:03.101] [6987] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-28 15:38:03.124] [6987] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.29+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.29-1+rpt1 (2026-05-12) aarch64
+[2026-05-28 15:38:03.148] [6987] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:38:03.148] [6987] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:38:03.310] [6987] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:38:03.310] [6987] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:40:07.235] [7015] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-28 15:40:07.258] [7015] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.29+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.29-1+rpt1 (2026-05-12) aarch64
+[2026-05-28 15:40:07.281] [7015] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:40:07.281] [7015] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:40:07.443] [7015] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:40:07.443] [7015] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:42:17.565] [7047] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-28 15:42:17.588] [7047] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.29+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.29-1+rpt1 (2026-05-12) aarch64
+[2026-05-28 15:42:17.611] [7047] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:42:17.611] [7047] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:42:17.773] [7047] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:42:17.773] [7047] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:42:44.254] [7083] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-28 15:42:44.277] [7083] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.29+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.29-1+rpt1 (2026-05-12) aarch64
+[2026-05-28 15:42:44.301] [7083] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:42:44.301] [7083] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:42:44.462] [7083] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:42:44.462] [7083] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:44:56.406] [7124] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-28 15:44:56.429] [7124] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.29+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.29-1+rpt1 (2026-05-12) aarch64
+[2026-05-28 15:44:56.452] [7124] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:44:56.452] [7124] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:44:56.614] [7124] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:44:56.614] [7124] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:45:07.497] [7156] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-28 15:45:07.531] [7156] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.29+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.29-1+rpt1 (2026-05-12) aarch64
+[2026-05-28 15:45:07.555] [7156] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:45:07.555] [7156] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:45:07.716] [7156] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:45:07.716] [7156] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:46:39.619] [7188] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-28 15:46:39.653] [7188] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.29+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.29-1+rpt1 (2026-05-12) aarch64
+[2026-05-28 15:46:39.676] [7188] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:46:39.676] [7188] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:46:39.838] [7188] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:46:39.838] [7188] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:48:05.126] [7225] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-28 15:48:05.149] [7225] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.29+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.29-1+rpt1 (2026-05-12) aarch64
+[2026-05-28 15:48:05.172] [7225] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:48:05.172] [7225] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:48:05.334] [7225] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:48:05.334] [7225] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:51:31.614] [7270] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-28 15:51:31.637] [7270] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.29+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.29-1+rpt1 (2026-05-12) aarch64
+[2026-05-28 15:51:31.661] [7270] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:51:31.661] [7270] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:51:31.823] [7270] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:51:31.823] [7270] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:51:49.439] [7303] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-28 15:51:49.473] [7303] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.29+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.29-1+rpt1 (2026-05-12) aarch64
+[2026-05-28 15:51:49.497] [7303] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:51:49.497] [7303] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:51:49.658] [7303] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:51:49.658] [7303] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:52:18.020] [7330] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-28 15:52:18.048] [7330] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.29+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.29-1+rpt1 (2026-05-12) aarch64
+[2026-05-28 15:52:18.072] [7330] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:52:18.072] [7330] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:52:18.234] [7330] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:52:18.234] [7330] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:53:41.671] [7358] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-28 15:53:41.694] [7358] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.29+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.29-1+rpt1 (2026-05-12) aarch64
+[2026-05-28 15:53:41.718] [7358] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:53:41.718] [7358] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:53:41.880] [7358] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:53:41.880] [7358] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:56:14.820] [7407] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-28 15:56:14.854] [7407] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.29+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.29-1+rpt1 (2026-05-12) aarch64
+[2026-05-28 15:56:14.877] [7407] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:56:14.877] [7407] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:56:15.039] [7407] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:56:15.039] [7407] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:56:26.724] [7425] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-28 15:56:26.746] [7425] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.29+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.29-1+rpt1 (2026-05-12) aarch64
+[2026-05-28 15:56:26.770] [7425] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:56:26.771] [7425] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:56:26.932] [7425] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:56:26.932] [7425] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:58:09.027] [7450] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-28 15:58:09.050] [7450] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.29+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.29-1+rpt1 (2026-05-12) aarch64
+[2026-05-28 15:58:09.073] [7450] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:58:09.073] [7450] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:58:09.235] [7450] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 15:58:09.235] [7450] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 16:00:45.268] [7482] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-28 16:00:45.290] [7482] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.29+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.29-1+rpt1 (2026-05-12) aarch64
+[2026-05-28 16:00:45.313] [7482] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 16:00:45.313] [7482] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 16:00:45.476] [7482] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 16:00:45.476] [7482] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 16:00:58.420] [7501] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-28 16:00:58.444] [7501] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.29+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.29-1+rpt1 (2026-05-12) aarch64
+[2026-05-28 16:00:58.468] [7501] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 16:00:58.468] [7501] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 16:00:58.630] [7501] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 16:00:58.630] [7501] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 16:01:52.582] [7526] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-28 16:01:52.605] [7526] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.29+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.29-1+rpt1 (2026-05-12) aarch64
+[2026-05-28 16:01:52.628] [7526] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 16:01:52.628] [7526] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 16:01:52.790] [7526] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 16:01:52.790] [7526] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 16:02:32.253] [7550] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-28 16:02:32.278] [7550] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.29+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.29-1+rpt1 (2026-05-12) aarch64
+[2026-05-28 16:02:32.302] [7550] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 16:02:32.302] [7550] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 16:02:32.463] [7550] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-28 16:02:32.463] [7550] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-29 01:50:31.709] [2419] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-29 01:50:31.744] [2419] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.29+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.29-1+rpt1 (2026-05-12) aarch64
+[2026-05-29 01:50:31.829] [2419] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-29 01:50:31.829] [2419] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-29 01:50:32.005] [2419] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-29 01:50:32.005] [2419] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-29 02:08:48.503] [2742] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-29 02:08:48.526] [2742] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.29+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.29-1+rpt1 (2026-05-12) aarch64
+[2026-05-29 02:08:48.549] [2742] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-29 02:08:48.550] [2742] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-29 02:08:48.711] [2742] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-29 02:08:48.711] [2742] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-29 02:12:21.452] [2828] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-29 02:12:21.474] [2828] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.29+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.29-1+rpt1 (2026-05-12) aarch64
+[2026-05-29 02:12:21.497] [2828] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-29 02:12:21.497] [2828] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-29 02:12:21.658] [2828] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-29 02:12:21.658] [2828] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-29 02:13:28.250] [2885] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-29 02:13:28.284] [2885] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.29+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.29-1+rpt1 (2026-05-12) aarch64
+[2026-05-29 02:13:28.307] [2885] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-29 02:13:28.307] [2885] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-29 02:13:28.469] [2885] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-29 02:13:28.469] [2885] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-29 10:43:53.639] [2048] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-29 10:43:53.673] [2048] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.29+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.29-1+rpt1 (2026-05-12) aarch64
+[2026-05-29 11:17:08.085] [3103] [HailoRT] [info] [vdevice.cpp:227] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-05-29 11:17:08.118] [3103] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.29+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.29-1+rpt1 (2026-05-12) aarch64
+[2026-05-29 11:17:08.142] [3103] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-29 11:17:08.142] [3103] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-29 11:17:08.303] [3103] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
+[2026-05-29 11:17:08.303] [3103] [HailoRT] [info] [hef.cpp:1963] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: yolo26n
